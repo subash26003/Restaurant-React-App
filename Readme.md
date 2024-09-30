@@ -1,6 +1,11 @@
 # Restaurant Webpage
 
-This is a full-stack restaurant webpage built using React and Tailwind CSS for the frontend, and Node.js, Express, and SQL for the backend.
+<img height="600" width="1200" src="https://res.cloudinary.com/dosxybcit/image/upload/v1727679642/nexus-project/Screenshot_237_g5uc30.png" />
+<img height="600" width="1200" src="https://res.cloudinary.com/dosxybcit/image/upload/v1727679640/nexus-project/Screenshot_238_uljk8h.png" />
+<img height="600" width="1200" src="https://res.cloudinary.com/dosxybcit/image/upload/v1727679639/nexus-project/Screenshot_239_fepwvw.png" />
+<img height="600" width="1200" src="https://res.cloudinary.com/dosxybcit/image/upload/v1727679639/nexus-project/Screenshot_240_hoieek.png" />
+
+This is a full-stack restaurant webpage built using React and Tailwind CSS for the frontend, and Node.js, Express, and SQL for the backend. The backend is specifically designed to handle login and signup authentication.
 
 ## Table of Contents
 - Installation
