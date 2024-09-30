@@ -1,0 +1,9 @@
+.menu-content-card{
+    font-family: 'Nunito';
+}
+.menu-content-card{
+    border: 0 !important;
+}
+.menu-content-card .price{
+    color: var(--Coral);
+}

@@ -1,0 +1,31 @@
+.footer-container{
+    background-color: var(--DarkBlue);
+    padding-bottom: 20px;
+}
+
+.quick-links-card{
+    width: 300px;
+}
+.quick-links-card .title{
+    margin-bottom: 30px;
+    color: var(--Coral);
+    font-weight: bold;
+    font-family: 'Pacifico';
+}
+.quick-links-card .title div{
+    padding:1px;
+    background-color: var(--Coral);
+}
+.quick-link{
+    transition: all .25s ;
+    font-family: 'Poppins';
+}
+.quick-link:hover{
+    transform: translateX(5px);
+}
+.quick-link p{
+    transition: all .5s;
+}
+.arrow-icon{
+    font-weight: bold !important;
+}

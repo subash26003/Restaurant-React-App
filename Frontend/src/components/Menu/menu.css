@@ -1,0 +1,27 @@
+.menu-container{
+    min-height: 220px;
+}
+.title-card h1 {
+    color: var(--Coral);
+    font-family: 'Pacifico';
+}
+.title-card div{
+    background-color: var(--Coral);
+}
+
+.menu-card div{
+    border-bottom: 1px solid gray;
+}
+.each-menu-card:hover{
+    cursor: pointer;
+}
+.each-menu-card{
+    font-family: 'Nunito';
+}
+.each-menu-card .icon{
+    color:var(--Coral);
+    border: 0 !important;
+}
+.active-menu{
+    border-bottom:3px solid var(--Coral) !important;
+}

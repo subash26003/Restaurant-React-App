@@ -1,0 +1,14 @@
+.table-booking-container{
+    padding: 20px;
+    background-color: var(--DarkBlue);
+    width: 100%;
+}
+.booking-btn{
+    padding: 10px 25px;
+    background-color: var(--Coral);
+    color: white;
+    font-family: 'Nunito';
+}
+.booking-btn:hover{
+    background-color:#ff7f50eb;
+}

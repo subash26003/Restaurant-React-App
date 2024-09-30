@@ -1,0 +1,27 @@
+.carousel-container{
+  margin-top: 50px !important;
+}
+.slick-dots li button:before {
+  margin-top: 20px;
+    font-size: 20px !important; 
+    color: gray; 
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: var(--Coral) !important;
+  }
+/* 
+  .slick-active {
+    background-color: var(--Coral); 
+    transition: background-color 0.5s ease;
+  } */
+.carousel-item {
+    opacity: 0.3;
+    padding: 10px 20px;
+}
+.active{
+    background-color: var(--Coral);
+    opacity: 1;
+    color: white;
+    margin: auto;
+}

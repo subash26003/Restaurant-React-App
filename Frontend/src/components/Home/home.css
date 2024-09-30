@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+.Home-outer-container{
+    background-image: url('./../../assets/restaurant-bg.jpg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap:50px;
+    overflow: hidden;
+    height: 100vh;
+}
+.home-image-card{
+    max-width: min(500px , 75vw);
+    height: auto;
+    border-radius: 50%;
+}
+.hotel-intro-card h1{
+    font-family:  'Nunito', sans-serif !important;
+}
+.hotel-intro-card p{
+    font-family:  'Nunito', sans-serif !important;
+}
+.home-food-img{
+    width: 100%;
+    border-radius: 50%;
+    animation: rotate 50s linear 0s infinite forwards normal;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (min-width : 1024px) {
+    .Home-outer-container{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around ;
+    }
+    .hotel-intro-card p{
+        width: 60ch;
+    }
+    .home-image-card{
+        max-width: 650px;
+    }
+}

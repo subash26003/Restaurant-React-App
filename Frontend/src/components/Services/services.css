@@ -1,0 +1,17 @@
+
+.service-card{
+    width: 250px;
+    transition: all .5s !important;
+}
+.service-card div{
+    color: var(--Orange);
+    transition: all .5s;
+}
+
+.service-card:hover{
+    div{
+        color: white;
+    }
+    background-color: var(--Orange);
+    color: white;
+}

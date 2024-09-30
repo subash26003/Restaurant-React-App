@@ -1,0 +1,42 @@
+.nav-bar-container{
+    background-color:  var(--DarkBlue);
+    position: fixed;
+    z-index: 1000;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 75px;
+}
+.logout-btn{
+    padding: 5px 10px;
+    transition: all .5s;
+}
+.logout-btn:hover{
+    border-color: var(--Coral);
+}
+.scrolled{
+    background-color: var(--DarkBlue) !important;
+}
+
+.mobile-nav{
+    background-color: var(--DarkBlue);
+    width: 100vw !important;
+    animation: mobileNav 0.5s ease-in-out 0s 1 forwards normal;
+}
+
+@keyframes mobileNav {
+    0%{
+        height: 0px;
+    }
+    100%{
+        height: 350px;
+    }
+}
+.nav-links{
+ 
+   transition: all .15s;
+}
+.nav-links:hover{
+    color:var(--Coral);
+    border-radius: 15px;
+}

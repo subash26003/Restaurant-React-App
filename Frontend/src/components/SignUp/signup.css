@@ -1,0 +1,29 @@
+.signup-card{
+    box-shadow: 0 0px 12px 4px rgba(46, 57, 155, 0.263); 
+    /* min-height: 600px; */
+    background-color: transparent;
+    border-radius: 30px;
+    width: 500px;
+}
+.signup-card h1{
+    color: #ff4500;
+    font-family: 'Montserrat';
+}
+.input-card{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+    text-align: left;
+}
+.signUp-button{
+    background-color: #ff4500;
+    padding: 7px 0px;
+    width: 100%;
+    transition: all .25s;
+    color: white;
+    border-radius: 20px;
+}
+.social-sigup-card i:hover{
+    color: var(--Coral);
+    cursor: pointer;
+}

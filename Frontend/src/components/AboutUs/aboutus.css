@@ -1,0 +1,48 @@
+.aboutus-container{
+    max-width: 100vw;
+}
+.about-image-conatiner{
+    /* width: 600px; */
+    height: 400px;
+    flex-wrap: wrap;
+}
+.about-image-conatiner div{
+    flex-grow: 1;
+    padding:5px 10px;
+}
+
+.aboutus-content-container{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.aboutus-content-container .title{
+    div{
+        background-color: var(--Coral);
+    }
+    font-family: "Pacifico";
+    color: var(--Coral);
+    display: inline !important;
+}
+.aboutus-content-container h1{
+    font-family: 'Nunito';
+}
+
+.aboutus-content-container h1 span 
+,.achievements-card span{
+    color:var(--Coral);
+}
+.achievements-card{
+    border-left: 7px solid var(--Coral);
+    border-radius: 5px;
+    font-family: 'Nunito';
+    font-weight: bold;
+    overflow: hidden;
+}
+.read-more-button{
+    margin-right: auto;
+    background-color: var(--Coral);
+    padding: 10px 20px;
+    color:white;
+    font-family: 'Poppins';
+    border-radius: 5px;
+}
